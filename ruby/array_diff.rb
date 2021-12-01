@@ -12,9 +12,14 @@
 
 # array_diff([1,2],[1]) == [2]
 
-#first attempt
+# #first attempt
+# def array_diff(a, b)
+#     a.reject { |num| b.include?(num) }
+# end
+
+#optimized
 def array_diff(a, b)
-    a.reject { |num| b.include?(num) }
+    a - b
 end
 
 p array_diff([1,2],[1])
