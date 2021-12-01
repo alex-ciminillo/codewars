@@ -4,4 +4,9 @@ def filter_list(l)
     no_str_arr = []
     l.each { |el| no_str_arr << el if el.is_a?(Integer) } 
     no_str_arr
-  end
+end
+
+#optimized
+def filter_list(l)
+    l.reject { |x| x.is_a?(String) }
+end
