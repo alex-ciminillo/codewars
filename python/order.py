@@ -13,6 +13,7 @@
 #         ordered_str += [order_dict[i]]
 #     return ' '.join(ordered_str)
 
+#optimized in one line!
 def order(sentence):
     return ' '.join(sorted(sentence.split(), key=lambda w:sorted(w)))
     
