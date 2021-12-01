@@ -10,6 +10,7 @@
 #     return years
 # end
 
+#slightly optimized
 def nb_year(p0, percent, aug, p)
     years = 0 
     until p0 >= p
