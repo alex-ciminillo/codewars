@@ -11,4 +11,4 @@ def find_it(seq)
     seq.detect { |num| seq.count(num).odd? }    
 end
 
-p find_it([1,2,2,3,3,3,4,3,3,3,2,2,1])
+p find_it([1,2,2,3,3,3,4,3,3,3,22,2,1])
