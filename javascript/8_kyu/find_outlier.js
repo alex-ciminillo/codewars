@@ -47,6 +47,15 @@
 // }
 
 
+function findOutlier(integers){
+
+    even = integers.filter(e => e % 2 == 0)
+    odd = integers.filter(o => o % 2 != 0)
+    return even.length == 1 ? even[0] : odd[0]
+
+ }
+
+
 arr = [3, 7, 160, 1719, 19, 11, 13, -21]
 console.log(findOutlier(arr))
 
