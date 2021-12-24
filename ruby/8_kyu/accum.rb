@@ -17,7 +17,7 @@
 #         end
 #         accum_str += "-" unless idx == (s.length - 1)
 #     end
-#     accum_str
+#     accum_str  
 # end
 
 #optimized
