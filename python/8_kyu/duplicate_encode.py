@@ -23,4 +23,4 @@ def duplicate_encode(word):
     
 
 str = "recede"
-print(duplicate_encode(str))
+print(duplicate_encode(str)) 
