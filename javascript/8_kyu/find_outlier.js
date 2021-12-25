@@ -44,7 +44,7 @@
 //         return integers[0]
 //     }
 
-// }
+// } 
 
 
 function findOutlier(integers){
