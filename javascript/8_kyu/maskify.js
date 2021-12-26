@@ -20,7 +20,7 @@
 // == "####################################man!"
 
 
-
+ 
 
 // return masked string
 function maskify(cc) {
@@ -28,4 +28,4 @@ function maskify(cc) {
 }
 
 
-console.log(maskify("Nananananananananananananananana Batman!"))
+console.log(maskify("Nananananananananananananananana Batman!")) 
